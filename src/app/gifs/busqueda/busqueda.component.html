@@ -1,0 +1,18 @@
+<div class="glassmorfism-search p-3">
+    <div>
+        <h5 class="text-left">Buscar:</h5>
+    </div>
+    <!-- 
+        // keyup.enter: cuando le damos al enter, enviará lo que hayamos escrito en el bucador
+            (keyup.enter)="buscar(txtBuscar.value)"
+        // Una referencia para asi poder enviar lo de esta caja, mediante el keyup.enter
+            #txtBuscar
+    -->
+        <input 
+            type="text" 
+            class="form-control bg-dark text-light" 
+            placeholder="Buscar Gifs..."
+            (keyup.enter)="buscar()"
+            #txtBuscar
+        >
+</div>

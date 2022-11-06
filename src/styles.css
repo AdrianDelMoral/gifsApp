@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+#sidebar {
+    height: 100%;
+    min-height: 100vh;
+    min-width: 180px;
+}
+
+.glassmorfism-sidebar {
+    background: rgba(0, 0, 0, 0.69);
+    border-radius: 0px 56px 0px 0px;
+    backdrop-filter: blur(1.5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.836);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.glassmorfism-search {
+    background: rgba(0, 0, 0, 0.69);
+    border-radius: 16px 16px 16px 15px;
+    backdrop-filter: blur(1.5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.836);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.bg-body {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 1.6px, transparent 1.6px), radial-gradient(#444cf7 1.6px, #e5e5f7 1.6px);
+    background-size: 64px 64px;
+    background-position: 0 0, 32px 32px;
+}

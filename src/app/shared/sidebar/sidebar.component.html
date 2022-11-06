@@ -1,0 +1,18 @@
+<div class="glassmorfism-sidebar border-right p-3" id="sidebar">
+    <h3 class="text-light">
+        Gifs-App
+    </h3>
+    <hr class="text-white">
+    <p class="text-light">
+        Busquedas 
+        Recientes
+    </p>
+    <div class="list-group list-reset">
+        <a *ngFor="let lastSearch of historial" 
+            (click)="buscar(lastSearch)"
+            href="." 
+            class="text-center bg-primary text-light list-group-item list-group-item-action">
+            {{ lastSearch | titlecase }}
+        </a>
+    </div>
+</div>
